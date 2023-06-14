@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NameBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3defc4d52.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="main_page.html "><img src="./Facebook Clone IMG/logo.png" class="logo"></a>
+       <ul>
+          <li>
+            <img src="./Facebook Clone IMG/notification.png">
+          </li>
+          <li>
+            <img src="./Facebook Clone IMG/inbox.png">
+          </li>
+          <li>
+            <img src="./Facebook Clone IMG/video.png">
+          </li>
+        </ul>            
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="./Facebook Clone IMG/search.png">
+          <input type="text" name="/" id="/" placeholder="Search">
+        </div>
+        <div class="usericon online" onclick="settingmenutoggle()">
+          <img src="./Facebook Clone IMG/profile-pic.png">
+        </div>
+        
+      </div>
+    <!---------settings menu------>
+    <div class="setting-menu">
+      <div id="dark-btn" >
+        <span></span>
+      </div>
+      <div class="setting-inner-menu">
+        <div class="userprofile">
+          <img src="./Facebook Clone IMG/profile-pic.png">
+          <div>
+            <p>John Nicholson</p>
+            <a href="profile.html ">See Your Profile</a>
+          </div>
+        </div>
+        <hr>
+        <div class="userprofile">
+          <img src="./Facebook Clone IMG/feedback.png">
+          <div>
+            <p>Give Feedback</p>
+            <a>Help us to improve the design</a>
+         </div>
+  
+  
+        </div>
+        <hr>
+        <div class="setting-links">
+          <img src="./Facebook Clone IMG/setting.png" class="setting-icon">
+          <a href="#">Setting & Privacy <img src="./Facebook Clone IMG/arrow.png" width="10px"></a>
+        </div>
+        
+        <div class="setting-links">
+          <img src="./Facebook Clone IMG/help.png" class="setting-icon">
+          <a href="#">Help & Support <img src="./Facebook Clone IMG/arrow.png" width="10px"></a>
+        </div>
+        
+        <div class="setting-links">
+          <img src="./Facebook Clone IMG/display.png" class="setting-icon">
+          <a href="#">Display & Accessibility <img src="./Facebook Clone IMG/arrow.png" width="10px"></a>
+        </div>
+        
+        <div class="setting-links">
+          <img src="./Facebook Clone IMG/logout.png" class="setting-icon">
+          <a href="#">LogOut <img src="./Facebook Clone IMG/arrow.png" width="10px"></a>
+        </div>
+
+      </div>
+    </div>
+
+    
+      
+    </nav>
+    
+    <div class="container">
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="./Facebook Clone IMG/news.png"> Latest News</a>
+          <a href="#"><img src="./Facebook Clone IMG/friends.png"> Friends</a>
+          <a href="#"><img src="./Facebook Clone IMG/group.png"> Group</a>
+          <a href="#"><img src="./Facebook Clone IMG/marketplace.png"> Market-Place</a>
+          <a href="#"><img src="./Facebook Clone IMG/watch.png"> Watch</a>
+          <a href="#">See More </a>
+        </div>
+
+        <div class="shortcut">
+          <p>Your Shortcuts</p>
+          <a href="#"><img src="./Facebook Clone IMG/shortcut-1.png"> Web-Developer</a>
+          <a href="#"><img src="./Facebook Clone IMG/shortcut-2.png"> Web-Design Course</a>
+          <a href="#"><img src="./Facebook Clone IMG/shortcut-3.png"> Full Stack Development</a>
+          <a href="#"><img src="./Facebook Clone IMG/shortcut-4.png"> Website-Experts</a>
+        </div>
+
+      </div>
+
+
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="./Facebook Clone IMG/upload.png">
+            <p>Post Story </p>
+          </div>
+          <div class="story">
+            <img src="./Facebook Clone IMG/member-1.png">
+            <p>Alison </p>
+          </div>
+          <div class="story">
+            <img src="./Facebook Clone IMG/member-2.png">
+            <p>Jackson </p>
+          </div>
+          <div class="story">
+            <img src="./Facebook Clone IMG/member-3.png">
+            <p>Samona </p>
+          </div>
+          <div class="story">
+            <img src="./Facebook Clone IMG/member-4.png">
+            <p>John Doe </p>
+          </div>
+        </div>
+
+
+        <div class="write-post-container">
+          <div class="userprofile">
+            <img src="./Facebook Clone IMG/profile-pic.png">
+            <div>
+              <p>John Nicholson</p>
+              <small>Public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+         <div class="post-input-container">
+           <textarea rows="3" placeholder="What's on your mind , John?"></textarea>
+           <div class="post-links">
+             <a href="#"><img src="./Facebook Clone IMG/live-video.png">Live Video</a>
+             <a href="#"><img src="./Facebook Clone IMG/photo.png">Photo/Video</a>
+             <a href="#"><img src="./Facebook Clone IMG/feeling.png">Feeling/Activity</a>
+           </div>
+         </div>
+
+        </div>
+
+        <div class="post-container">
+        <div class="post-row">
+          <div class="userprofile">
+            <img src="./Facebook Clone IMG/profile-pic.png">
+            <div>
+              <p>John Nicholson</p>
+              <span>June 24 2021, 13:40PM</span>
+            </div>
+          </div>
+          <a href="#"><i class="fas fa-ellipsis-v"></i></a> 
+        </div>
+        <p class="post-text">Subscribe to<span> @Eghost</span> Youtube Channels for More Gaming Content 
+          <a href="#"> #ApexLegends</a><a href="#"> #Subscribe</a></p>
+        <img src="./Facebook Clone IMG/feed-image-1.png" class="post-img">
+        <div class="post-row">
+          <div class="left-post">
+           <div><img src="./Facebook Clone IMG/like.png">120</div>
+           <div><img src="./Facebook Clone IMG/comments.png">45</div>
+           <div><img src="./Facebook Clone IMG/share.png">20</div>
+          </div>
+          <div class="right-post">
+            <img src="./Facebook Clone IMG/profile-pic.png" class="post-row-pic"> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+        
+
+        </div>
+      
+        <div class="post-container">
+        <div class="post-row">
+          <div class="userprofile">
+            <img src="./Facebook Clone IMG/profile-pic.png">
+            <div>
+              <p>John Nicholson</p>
+              <span>June 24 2021, 13:40PM</span>
+            </div>
+          </div>
+          <a href="#"><i class="fas fa-ellipsis-v"></i></a> 
+        </div>
+        <p class="post-text">Subscribe to<span> @Eghost</span> Youtube Channels for More Gaming Content 
+          <a href="#"> #ApexLegends</a><a href="#"> #Subscribe</a></p>
+        <img src="./Facebook Clone IMG/feed-image-2.png" class="post-img">
+        <div class="post-row">
+          <div class="left-post">
+           <div><img src="./Facebook Clone IMG/like.png">120</div>
+           <div><img src="./Facebook Clone IMG/comments.png">45</div>
+           <div><img src="./Facebook Clone IMG/share.png">20</div>
+          </div>
+          <div class="right-post">
+            <img src="./Facebook Clone IMG/profile-pic.png" class="post-row-pic"> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+        
+
+        </div>
+
+        <div class="post-container">
+        <div class="post-row">
+          <div class="userprofile">
+            <img src="./Facebook Clone IMG/profile-pic.png">
+            <div>
+              <p>John Nicholson</p>
+              <span>June 24 2021, 13:40PM</span>
+            </div>
+          </div>
+          <a href="#"><i class="fas fa-ellipsis-v"></i></a> 
+        </div>
+        <p class="post-text">Subscribe to<span> @Eghost</span> Youtube Channels for More Gaming Content 
+          <a href="#"> #ApexLegends</a><a href="#"> #Subscribe</a></p>
+        <img src="./Facebook Clone IMG/feed-image-3.png" class="post-img">
+        <div class="post-row">
+          <div class="left-post">
+           <div><img src="./Facebook Clone IMG/like.png">120</div>
+           <div><img src="./Facebook Clone IMG/comments.png">45</div>
+           <div><img src="./Facebook Clone IMG/share.png">20</div>
+          </div>
+          <div class="right-post">
+            <img src="./Facebook Clone IMG/profile-pic.png" class="post-row-pic"> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+        
+
+        </div>
+
+        <div class="post-container">
+        <div class="post-row">
+          <div class="userprofile">
+            <img src="./Facebook Clone IMG/profile-pic.png">
+            <div>
+              <p>John Nicholson</p>
+              <span>June 24 2021, 13:40PM</span>
+            </div>
+          </div>
+          <a href="#"><i class="fas fa-ellipsis-v"></i></a> 
+        </div>
+        <p class="post-text">Subscribe to<span> @Eghost</span> Youtube Channels for More Gaming Content 
+          <a href="#"> #ApexLegends</a><a href="#"> #Subscribe</a></p>
+        <img src="./Facebook Clone IMG/feed-image-4.png" class="post-img">
+        <div class="post-row">
+          <div class="left-post">
+           <div><img src="./Facebook Clone IMG/like.png">120</div>
+           <div><img src="./Facebook Clone IMG/comments.png">45</div>
+           <div><img src="./Facebook Clone IMG/share.png">20</div>
+          </div>
+          <div class="right-post">
+            <img src="./Facebook Clone IMG/profile-pic.png" class="post-row-pic"> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+        
+
+        </div>
+
+        <div class="post-container">
+        <div class="post-row">
+          <div class="userprofile">
+            <img src="./Facebook Clone IMG/profile-pic.png">
+            <div>
+              <p>John Nicholson</p>
+              <span>June 24 2021, 13:40PM</span>
+            </div>
+          </div>
+          <a href="#"><i class="fas fa-ellipsis-v"></i></a> 
+        </div>
+        <p class="post-text">Subscribe to<span> @Eghost</span> Youtube Channels for More Gaming Content 
+          <a href="#"> #ApexLegends</a><a href="#"> #Subscribe</a></p>
+        <img src="./Facebook Clone IMG/feed-image-5.png" class="post-img">
+        <div class="post-row">
+          <div class="left-post">
+           <div><img src="./Facebook Clone IMG/like.png">120</div>
+           <div><img src="./Facebook Clone IMG/comments.png">45</div>
+           <div><img src="./Facebook Clone IMG/share.png">20</div>
+          </div>
+          <div class="right-post">
+            <img src="./Facebook Clone IMG/profile-pic.png" class="post-row-pic"> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+        
+
+        </div>
+         
+        <button type="button" class="load-button">Load More</button>
+
+      </div>
+        
+
+      <div class="right-sidebar">
+          <div class="sidebar-title">
+          <h4>Events</h4><a href="">See All</a>
+          </div>
+          <div class="events">
+            <div class="left-side">
+              <h3>18</h3>
+              <span>March</span>
+            </div>
+            <div class="right-side">
+              <h4>Social Media</h4>
+              <p><i class="fa-thin fa-location-dot fa"></i> Willson Park</p>
+              <a href="#">More Info</a>
+            </div>
+          </div>
+          <div class="events">
+            <div class="left-side">
+              <h3>22</h3><span>June</span>
+            </div>
+            <div class="right-side">
+              <h4>Mobile Marketing  </h4>
+              <p><i class="fa-thin fa-location-dot fa"></i> Willson Park</p>
+              <a href="#">More Info</a>
+            </div>
+          </div>
+          <div class="sidebar-title">
+            <h4>Advertisements</h4><a href="">See All</a>
+          </div>
+          <div class="adimg">
+            <img src="./Facebook Clone IMG/advertisement.png">
+          </div>
+          <div class="sidebar-title">
+            <h4>Conversations</h4><a href="">See All</a>
+          </div>
+          <div class="conv">
+            <div class="online">
+              <img src="./Facebook Clone IMG/member-1.png">       
+            </div>
+            <p>Alison Mina</p>
+          </div>
+          <div class="conv">
+            <div class="online">
+              <img src="./Facebook Clone IMG/member-2.png">       
+            </div>
+            <p>Jackson Aston</p>
+          </div>
+          <div class="conv">
+            <div class="online">
+              <img src="./Facebook Clone IMG/member-3.png">       
+            </div>
+            <p>Samantha Rose </p>
+          </div>
+      </div>
+        
+    </div>
+          
+     <div class="footer">
+      <p>Wake Up to Reality</p>
+     </div>     
+        
+
+
+     
+
+	<script src="index.js"></script>
+  </body>
+</html>
